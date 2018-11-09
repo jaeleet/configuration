@@ -6,6 +6,7 @@ set ai
 set number
 set hlsearch
 set ruler
+set cc=80
 highlight Comment ctermfg=green
 
 filetype plugin indent on
@@ -23,13 +24,9 @@ call plug#end()
 colo molokai
 
 let g:syntastic_go_checkers = ['go', 'gofmt', 'govet', 'golint']
-let g:syntastic_c_checkers = ['splint', 'gcc']
-let g:syntastic_cc_checkers = ['cpplint', 'gcc']
-let g:syntastic_cpp_checkers = ['cpplint', 'gcc']
-let g:syntastic_cpp_cpplint_exec = 'cpplint'
 let g:syntastic_python_python_exec = 'python3'
+let g:syntastic_python_checkers = ['python', 'pylint']
 let g:syntastic_hs_checkers = ['hlint', 'hdevtools']
-let g:syntastic_javascript_checkers = ['eslint']
 
 let g:syntastic_auto_jump = 0
 let g:syntastic_always_populate_loc_list = 1
