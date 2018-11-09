@@ -10,6 +10,7 @@ highlight Comment ctermfg=green
 
 filetype plugin indent on
 
+map <F2> :SyntasticReset<CR>
 map <F5> :!xclip -sel clip %<CR><CR>
 
 call plug#begin('~/.local/share/nvim/plugged')
@@ -20,7 +21,6 @@ Plug 'jaeleet/molokai'
 call plug#end()
 
 colo molokai
-let g:molokai_original = 1
 
 let g:syntastic_go_checkers = ['go', 'gofmt', 'govet', 'golint']
 let g:syntastic_c_checkers = ['splint', 'gcc']
