@@ -16,7 +16,7 @@ map <F5> :!xclip -sel clip %<CR><CR>
 
 call plug#begin('~/.local/share/nvim/plugged')
 Plug 'vim-syntastic/syntastic'
-Plug 'alx741/vim-hindent'
+Plug 'nbouscal/vim-stylish-haskell'
 Plug 'jiangmiao/auto-pairs'
 Plug 'jaeleet/molokai'
 call plug#end()
