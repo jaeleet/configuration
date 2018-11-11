@@ -1,12 +1,17 @@
 syntax on
-set tabstop=4
-set shiftwidth=4
-set expandtab
+set autoindent
 set ai
-set number
-set hlsearch
-set ruler
 set cc=80
+set expandtab
+set hlsearch
+set nocompatible
+set number
+set ruler
+set shiftwidth=4
+set showmode
+set smartcase
+set smartindent
+set tabstop=4
 highlight Comment ctermfg=green
 
 filetype plugin indent on
