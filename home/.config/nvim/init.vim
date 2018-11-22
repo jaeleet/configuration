@@ -1,5 +1,4 @@
 syntax on
-set autoindent
 set ai
 set cc=80
 set expandtab
