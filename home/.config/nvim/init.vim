@@ -16,7 +16,7 @@ highlight Comment ctermfg=green
 filetype plugin indent on
 
 map <F2> :SyntasticReset<CR>
-map <F3> :set sw=8 ts=8 noet
+map <F3> :set sw=8 ts=8 noet<CR>
 map <F5> :!xclip -sel clip %<CR><CR>
 
 call plug#begin('~/.local/share/nvim/plugged')
